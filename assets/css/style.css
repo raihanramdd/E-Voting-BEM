@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    min-height: 80px;
+}
+
+.active {
+    color: rgb(139, 190, 35) !important;
+    border-bottom: 3px solid #d5e91e; 
+}
+
+
+.sec1 {
+    min-height: 500px;
+    
+    margin-top: 90px;
+}
+
+.sec2 {
+    min-height: 400px;
+    
+}
+
+@media screen and (max-width: 400px) {
+    .h2-sec1, .p-sec1 {
+        text-align: center;
+    }
+
+    .a-sec1 {
+        margin-left: 9%;
+    }
+
+    .img-sec2 {
+        margin-top: 30px;
+    }
+}
+
